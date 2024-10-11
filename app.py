@@ -36,12 +36,26 @@ def generate_content():
                     <h1>Welcome to the Social Bio Generator API!</h1>
                     <p>Generate custom bios for social media profiles with a specific tone and format.</p>
                     <h3>How to use this API:</h3>
-                    <p>Send a GET request to <code>/generate/</code> with the following parameters:</p>
+                    <p>Send a GET request to <code>https://biocraftapi.vercel.app/generate/</code> with the following parameters:</p>
                     <ul style="text-align: left;">
                         <li><code>tone</code>: The desired tone for your bio (e.g., <em>professional, funny</em>).</li>
                         <li><code>format</code>: The preferred format for your bio (e.g., <em>short, captivating</em>).</li>
                         <li><code>text</code>: The introductory text you want to modify, try to make it as descriptive as possible for best results.</li>
                     </ul>
+                    <div class="tone">
+                         <h3>Example tones:</h3>
+                         <li><code>Professional</code>: Formal and business-like.
+                         <li><code>Casual</code>: Friendly and informal.
+                         <li><code>Funny</code>: Humorous and light-hearted.
+                         <li><code>Enthusiastic</code>: Energetic and positive.
+                         <li><code>Inspirational</code>: Motivational and uplifting.
+                         <li><code>Serious</code>: Sober and straightforward.
+                         <li><code>Confident</code>: Assertive and self-assured.
+                         <li><code>Friendly</code>: Warm and approachable.
+                         <li><code>Quirky</code>: Unconventional and playful.
+                         <li><code>Sophisticated</code>: Elegant and refined.
+                         <li><code>Empathetic</code>: Understanding and compassionate.
+                         <li><code>Persuasive</code>: Convincing and compelling.
                     <div class="example">
                         <h3>Example Request:</h3>
                         <p><code>/generate/?tone=professional&format=short&text=I%20am%20a%20web%20developer</code></p>
