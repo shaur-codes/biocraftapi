@@ -43,6 +43,7 @@ def generate_content():
                         <li><code>text</code>: The introductory text you want to modify, try to make it as descriptive as possible for best results.</li>
                     </ul>
                     <div class="tone">
+                    <ul style="text-align: left;">
                          <h3>Example tones:</h3>
                          <li><code>Professional</code>: Formal and business-like.
                          <li><code>Casual</code>: Friendly and informal.
@@ -56,6 +57,7 @@ def generate_content():
                          <li><code>Sophisticated</code>: Elegant and refined.
                          <li><code>Empathetic</code>: Understanding and compassionate.
                          <li><code>Persuasive</code>: Convincing and compelling.
+                         </ul>
                     </div>
                     <div class="example">
                         <h3>Example Request:</h3>
