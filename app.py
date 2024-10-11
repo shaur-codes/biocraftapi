@@ -56,6 +56,7 @@ def generate_content():
                          <li><code>Sophisticated</code>: Elegant and refined.
                          <li><code>Empathetic</code>: Understanding and compassionate.
                          <li><code>Persuasive</code>: Convincing and compelling.
+                    </div>
                     <div class="example">
                         <h3>Example Request:</h3>
                         <p><code>/generate/?tone=professional&format=short&text=I%20am%20a%20web%20developer</code></p>
