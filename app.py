@@ -22,7 +22,7 @@ def generate_content():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>API Guide - Social Bio Generator</title>
+                <title>API Guide - Bio Craft API</title>
                 <style>
                     body { font-family: Arial, sans-serif; color: #333; background-color: #f4f8fb; text-align: center; padding: 50px; }
                     h1 { color: #4a90e2; }
@@ -40,7 +40,7 @@ def generate_content():
                     <ul style="text-align: left;">
                         <li><code>tone</code>: The desired tone for your bio (e.g., <em>professional, funny</em>).</li>
                         <li><code>format</code>: The preferred format for your bio (e.g., <em>short, captivating</em>).</li>
-                        <li><code>text</code>: The introductory text you want to modify.</li>
+                        <li><code>text</code>: The introductory text you want to modify, try to make it as descriptive as possible for best results.</li>
                     </ul>
                     <div class="example">
                         <h3>Example Request:</h3>
