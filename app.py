@@ -60,8 +60,10 @@ def generate_content():
                          </ul>
                     </div>
                     <div class="example">
+                    <p>this is an example intro: I am a web developer and CEO of QuickBio, I am persuing business informatics as well</p>
+                    <p>make a request to the query below to see a creative bio generated using AI.</p>
                         <h3>Example Request:</h3>
-                        <p><code>/generate/?tone=professional&format=short&text=I%20am%20a%20web%20developer</code></p>
+                        <p><code>/generate/?tone=professional-and-inspirational&format=short&text=I%20am%20a%20web%20developer%20and%20CEO%20of%20quickbio,%20I%20am%20persuing%20business%20informatics%20as%20well</code></p>
                     </div>
                     <p>Enjoy crafting the perfect bio!</p>
                 </div>
